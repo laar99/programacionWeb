@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Encuesta</title>
+</head>
+<body>
+	<h1>Formulario</h1>
+	<div>
+<form>
+	<hr>
+	<label for = "respuesta_nombre"> Nombre: </label>    
+    <input type = "text" name = "nombre" id = "respuesta_nombre">
+    <label for= "respuesta_apellido"> Apellido: </label>
+    <input type = "text" name = "apellido" id = "respuesta_apellido">
+	<br>
+	<br>
+	<h2>Fecha De Nacimiento:</h2>	
+	<br>
+	<label for= "dia"> Dia: </label>
+	<input type = "text" list = "dias" id = "dia" name = "dia">
+	<datalist id = "dias">
+    <option value = "1"> </option>
+    <option value = "2"> </option>
+    <option value = "3"> </option>
+    <option value = "4"> </option>
+    <option value = "5"> </option>
+    <option value = "6"> </option>
+    <option value = "7"> </option>
+    <option value = "8"> </option>
+    <option value = "9"> </option>
+    <option value = "10"> </option>
+    <option value = "11"> </option>
+    <option value = "12"> </option>
+    <option value = "13"> </option>
+    <option value = "14"> </option>
+    <option value = "15"> </option>
+    <option value = "16"> </option>
+    <option value = "17"> </option>
+    <option value = "18"> </option>
+    <option value = "19"> </option>
+    <option value = "20"> </option>
+    <option value = "21"> </option>
+    <option value = "22"> </option>
+    <option value = "23"> </option>
+    <option value = "24"> </option>
+    <option value = "25"> </option>
+    <option value = "26"> </option>
+    <option value = "27"> </option>
+    <option value = "28"> </option>
+    <option value = "29"> </option>
+    <option value = "30"> </option>
+    <option value = "31"> </option>
+    </datalist>
+    <label for= "Mes"> Mes: </label>
+	<input type = "text" list = "meses" id = "mes" name = "mes">
+	<datalist id = "meses">
+    <option value = "Enero"> </option>
+    <option value = "Ferero"> </option>
+    <option value = "Marzo"> </option>
+    <option value = "Abril"> </option>
+    <option value = "Mayo"> </option>
+    <option value = "Junio"> </option>
+    <option value = "Julio"> </option>
+    <option value = "Agosto"> </option>
+    <option value = "Septiembre"> </option>
+    <option value = "Octubre"> </option>
+    <option value = "Noviembre"> </option>
+    <option value = "Diciembre"> </option>
+	</datalist>
+	<label for= "Año"> Año: </label>
+	<input type = "text" list = "anos" id = "ano" name = "ano">
+	<datalist id = "anos">
+    <option value = "1970"> </option>
+    <option value = "1971"> </option>
+    <option value = "1972"> </option>
+    <option value = "1973"> </option>
+    <option value = "1974"> </option>
+    <option value = "1975"> </option>
+    <option value = "1976"> </option>
+    <option value = "1977"> </option>
+    <option value = "1978"> </option>
+    <option value = "1979"> </option>
+    <option value = "1980"> </option>
+    <option value = "1981"> </option>
+    <option value = "1982"> </option>
+    <option value = "1983"> </option>
+    <option value = "1984"> </option>
+    <option value = "1985"> </option>
+    <option value = "1986"> </option>
+    <option value = "1987"> </option>
+    <option value = "1988"> </option>
+    <option value = "1989"> </option>
+    <option value = "1990"> </option>
+    <option value = "1991"> </option>
+    <option value = "1992"> </option>
+    <option value = "1993"> </option>
+    <option value = "1994"> </option>
+    <option value = "1995"> </option>
+    <option value = "1996"> </option>
+    <option value = "1997"> </option>
+    <option value = "1998"> </option>
+    <option value = "1999"> </option>
+    <option value = "2000"> </option>
+    </datalist>
+    <br>
+    <hr>
+    <br>    
+    <label for = "respuesta_dire"> Direccion </label>    
+    <input type = "text" name = "dire" id = "respuesta_dire">
+    <label for = "respuesta_postal"> Codigo Postal:  </label>    
+    <input id = "respuesta_postal" name = "respuesta_postal" type = "number" step = "1">
+    <hr>
+    <h3>¿Que actividad realiza mas a menudo?</h3>
+    <input type = "radio" id = "gym" name = "respuesta" value = "gym">
+    <label for = "gym"> Levantar Pesas (GYM) </label>
+    <br>
+    <input type = "radio" id = "dormir" name = "respuesta" value = "Dormir">
+    <label for = "dormir"> Dormir </label>
+     <br>
+    <input type = "radio" id = "estudiar" name = "respuesta" value = "estudiar">
+    <label for = "estudiar"> Estudiar </label>
+     <br>
+    <input type = "radio" id = "leer" name = "respuesta" value = "leer">
+    <label for = "leer"> Leer </label>
+     <br>
+    <input type = "radio" id = "juegos" name = "respuesta" value = "juegos">
+    <label for = "juegos"> Jugar Videojuegos </label>
+     <br>
+    <input type = "radio" id = "bailar" name = "respuesta" value = "bailar">
+    <label for = "bailar"> Bailar </label>
+    <hr>
+    <h3>¿Que materias te gustan mas?</h3>
+    <input id = "fisica" name = "materias" type = "checkbox" value = "fisica">
+    <label for = "fisica"> Fisica </label>
+    <input id = "calculo" name = "materias" type = "checkbox" value = "calculo">
+    <label for = "calculo"> Calculo </label>
+    <br>
+    <input id = "quimica" name = "materias" type = "checkbox" value = "quimica">
+    <label for = "quimica"> Quimica </label>
+    <input id = "progra" name = "materias" type = "checkbox" value = "progra">
+    <label for = "progra"> Programacion </label>
+    <br>
+    <input id = "redes" name = "materias" type = "checkbox" value = "redes">
+    <label for = "redes"> Redes </label>
+    <input id = "deporte" name = "materias" type = "checkbox" value = "deporte">
+    <label for = "deporte"> Deportes </label>
+    <br>
+    <input id = "otros" name = "materias" type = "checkbox" value = "otros">
+    <label for = "otros"> Otros </label>
+    <hr>
+    <h3>Agregue Un Comentario Acerca De La Encuesta</h3>
+    <br>
+    <textarea id = "comentario" name = "blog" rows = "5" cols = "30"></textarea>
+    <br>
+    <hr>
+    <input align="center" type = "submit" value = "Enviar">
+</form>		
+    </div>
+</body>
+</html>
