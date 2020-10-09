@@ -1,0 +1,66 @@
+body{
+	background-image: url("imagenes/fondo.jpg"); 
+	background-size: cover;}
+
+*{
+	box-sizing: border-box;
+}
+
+header{
+	color: #EC7403;
+	padding: 2px 2px 2px 2px;
+	background-color: rgba(6,1,5,.50);	
+}
+
+h2{	
+	float: right;
+}
+
+.lista{		
+    display: inline-block;		
+	position: relative;		
+    margin-left: 510px;
+	
+}
+li,ul{	
+	padding: 10px 10px 10px 10px;	
+	text-align: center;	
+	margin-bottom: 0px;	
+	display: inline-block;
+	color: #EC7403;
+	background-color: rgba(6,1,5,.50);
+}
+
+li:hover{
+background-color: #F5B816 ;
+color: red;
+font-size: 20px;
+
+}
+
+div{
+	width: 250px;
+	height: 150px;
+	overflow: hidden;	
+	margin-bottom: 60px;
+	color: black;
+	background-color: rgba(227,168,9,.60);
+}
+
+.cuadros{
+	width: 600px;
+	height: 360px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: auto; margin-right: auto;
+	background-color: rgba(6,1,5,.70);
+}
+
+.arribad{
+
+	float: right;
+}
+
+.abajod{
+	float: right;
+}
