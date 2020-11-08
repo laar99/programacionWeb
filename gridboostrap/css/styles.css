@@ -1,0 +1,35 @@
+.row{
+	background-color: #1e130c;
+	color: white;
+}
+
+.jumbotron{
+	background-color: #9a8478;
+}
+h1{
+	font-size: 60px;
+}
+h2{
+	font-size: 50px;
+}
+h1,h2{
+	font-family: 'Sansita Swashed', cursive;
+}
+p{
+	font-family: 'Henny Penny', cursive;
+	font-size: 25px;
+}
+h2{
+background-color: #9a8478;	
+}
+
+img{
+width: 100%
+}
+
+body{
+background: #ADA996; 
+background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  
+background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+
+}
