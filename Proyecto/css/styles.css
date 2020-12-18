@@ -78,7 +78,7 @@ color: yellow;
 }
 
 body{
-  background-image: url("../Imagenes/FondoP.jpg");
+  background-image: url("../imagenes/FondoP.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
 }
