@@ -13,35 +13,35 @@ b1.addEventListener('click', cambia);
 b2.addEventListener('click', cambia1);
 b3.addEventListener('click', cambia2);
 
-img2.style.display = 'none';
-img4.style.display = 'none';
-img6.style.display = 'none';
+img2.style.opacity = 0;
+img4.style.opacity = 0;
+img6.style.opacity = 0;
 
 function cambia(){	
-if (img2.style.display == 'none') {	
-	img2.style.display = 'block';
-	img1.style.display = 'none';
+if (img2.style.opacity == 0) {	
+	img2.style.opacity = 1;
+	img1.style.opacity = 0;
 }else{
-	img2.style.display = 'none';
-	img1.style.display = 'block';
+	img2.style.opacity = 0;
+	img1.style.opacity = 1;
 }			
 }
 
 function cambia1(){			
-	if (img4.style.display == 'none') {	
-	img4.style.display = 'block';
-	img3.style.display = 'none';
+	if (img4.style.opacity == 0) {	
+	img4.style.opacity = 1;
+	img3.style.opacity = 0;
 }else{
-	img4.style.display = 'none';
-	img3.style.display = 'block';
+	img4.style.opacity = 0;
+	img3.style.opacity = 1;
 }
 }
 function cambia2(){			
-	if (img6.style.display == 'none') {	
-	img6.style.display = 'block';
-	img5.style.display = 'none';
+	if (img6.style.opacity == 0) {	
+	img6.style.opacity = 1;
+	img5.style.opacity = 0;
 }else{
-	img6.style.display = 'none';
-	img5.style.display = 'block';
+	img6.style.opacity = 0;
+	img5.style.opacity = 1;
 }
 }
